@@ -1,0 +1,5 @@
+all.out: box.cpp box_test.cpp
+	g++ box.cpp box_test.cpp -lgtest_main -lgtest -o all.out
+
+test:all.out
+	./all.out
